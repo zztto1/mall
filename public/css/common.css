@@ -1,0 +1,226 @@
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrapper{
+  width: 100%;
+  position: relative;
+}
+
+/* 헤더 공통 */
+.wrapper header{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  height: 120px;
+  position: relative;
+}
+.wrapper header .row{
+  width: 100%;
+  margin: 0px;
+}
+
+/* 헤더 좌측 */
+.wrapper header .header-left{
+  width: 30%;
+  height: 120px;
+  text-align: center;
+}
+.wrapper header .header-left a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding-top: 10%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.wrapper header .site-logo{
+  height: 80%;
+  margin-top: 10px;
+}
+
+/* 헤더 중앙 */
+.wrapper header .header-center{
+  width: 40%;
+  padding: 10px;
+}
+.wrapper header .header-center form{
+  border: 2px solid #3296bb;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 450px;
+  margin: auto;
+  margin-top: 30px;
+}
+.wrapper header .header-center input{
+  width: 80%;
+  display: inline;
+  border: 0px !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.wrapper header .header-center input::placeholder{
+  color: #ccc;
+}
+.search-btn{
+  display: inline;
+  width: 18%;
+  background: unset;
+  border: 0px;
+  color: #3296bb;
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* 헤더 우측 */
+.wrapper header .header-right{
+  width: 30%;
+  margin-top: 47px;
+  padding-right: 70px;
+  text-align: right;
+  color: #454345;
+}
+.wrapper header .header-right div{
+  display: inline-block;
+  margin: 0px 10px;
+  cursor: pointer;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Navigation Bar */
+/* hover시 Dropdown */
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.navbar{
+  padding: 0px;
+  background: #454345 !important;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.navbar-nav{
+  margin: auto;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white !important;
+}
+.nav-item{
+  padding: 5px 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+.nav-item:hover{
+  background: #3296bb;
+}
+.nav-item:hover, .nav-item.active{
+  background: #3296bb;
+}
+
+.dropdown-menu{
+  left: 0px;
+  border-radius: 0px;
+  padding: 0px;
+}
+.dropdown-menu .dropdown-item{
+  font-size: 14px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+  background: #3296bb;
+  color: white;
+}
+
+/* Contents */
+.contents{
+  margin-bottom: 30px;
+}
+
+/* 페이지 네비게이션 */
+.contents .page-nav-wrapper{
+  background: #eee;
+}
+.contents .page-nav{
+  padding: 5px 30px;
+  letter-spacing: 1px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  color: #5d5d5d;
+  font-size: 14px;
+}
+.contents .page-nav span{
+  color: black;
+  font-weight: bold;
+}
+.dropdown-toggle::after{
+  content: unset;
+}
+
+
+/* 하단 네비게이터 */
+.pagination{
+  width: fit-content;
+  margin: 20px auto;
+}
+.page-link, .page-link:hover{
+  color: #3296bb;
+}
+.page-item.active .page-link{
+  background: #3296bb;
+  border-color: #3296bb;
+}
+.page-item.disabled .page-link{
+  background: #eee;
+  border-color: #ddd;
+}
+.page-link:focus{
+  box-shadow: unset;
+}
+
+
+/* Footer */
+footer{
+  background: #454345;
+  color: #bbb;
+  padding: 20px;
+  padding-left: 50px;
+  font-size: 14px;
+}
+footer div{
+  margin: 7px 0px;
+  text-align: center;
+}
+footer .footer-line{
+  vertical-align: top;
+  padding: 0px 20px;
+}
+footer a, footer a:active, footer a:hover{
+  color: #bbb;
+  text-decoration: unset
+}
+
+.text-left{
+  text-align: left !important;
+}
+.text-right{
+  text-align: right !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.float-right{
+  float: right;
+}
